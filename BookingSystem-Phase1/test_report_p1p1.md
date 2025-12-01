@@ -56,7 +56,7 @@
 |------|-----------|----------|--------------|------------------|
 | F-01 | 🔴 High | Privilege Escalation via Role Selection | Users can select "administrator" role during registration. | ![alt text](.\proof1.png) |
 | F-02 | 🟡 Low | Weak Password Handling | System accepts weak passwords (e.g., "123") |![alt text](.\proof3.png) |
-| F-03 | 🟡 Low | Frontend-only Email Validation | Backend validation should be verified. | ![alt text](.\proof3.png) |
+| F-03 | 🟡 Low | Email Validation | Emails should be verified. | ![alt text](.\proof3.png) |
 | F-04 | 🟡 Low | Birth Date Lack Validation | Accepts dates that make user underage or illegal date (e.g., future date) | ![alt text](.\proof3.png) |
 | F-05 | 🔴 High | Password Storage Lack Hashing | Passwords are stored in plaintext | ![alt text](.\proof5.png) |
 
